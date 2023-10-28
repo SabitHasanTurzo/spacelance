@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .category-image {
+            width: 290px;
+            height: 241px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            background: url('images/graphic-design.jfif') lightgray 50% / cover no-repeat;
+            position: relative;
+        }
+        
+        .overlay-text {
+            position: absolute;
+            top: 50%; /* Position text vertically in the center */
+            left: 50%; /* Position text horizontally in the center */
+            transform: translate(-50%, -50%); /* Center the text precisely */
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            border-radius: 0 0 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="category-image">
+        <div class="overlay-text">Graphic design</div>
+    </div>
+</body>
+</html>
